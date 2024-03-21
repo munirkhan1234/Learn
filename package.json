@@ -30,7 +30,7 @@
 		"watch:theme": "yarn workspace wporg-learn-theme start",
 		"watch:plugin": "yarn workspace wporg-learn-plugin start",
 		"setup:tools": "exit 0",
-		"wp-now": "(cd wp-content && wp-now start --blueprint=../blueprint.json --reset)"
+		"wp-now": "(cd wp-content && wp-now start --blueprint=../blueprint.json)"
 	},
 	"main": "index.js",
 	"devDependencies": {
